@@ -36,6 +36,9 @@ mkdir -p /HDD/home/etienne/Videos; ln -s /HDD/home/etienne/Videos /home/etienne
 - Lutris
 - vim
 
+### Spotify
+Disable "Show desktop notifications when the song changes" in settings
+
 ### Steam
 Setup an alternative download location to /HDD/SteamLibrary
 

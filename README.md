@@ -29,7 +29,9 @@ mkdir -p /HDD/home/etienne/Videos; ln -s /HDD/home/etienne/Videos /home/etienne
 
 ### Fixed Login screen on external monitor
 Considering the initial monitors setup is done in user-session.
+```sh
 `sudo cp ~/.config/monitors.xml ~gdm/.config/monitors.xml`
+```
 
 ## Installed software
 - Spotify

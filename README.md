@@ -27,6 +27,9 @@ mkdir -p /HDD/home/etienne/Template; ln -s /HDD/home/etienne/Template /home/etie
 mkdir -p /HDD/home/etienne/Videos; ln -s /HDD/home/etienne/Videos /home/etienne
 ```
 
+### Fixed Login screen on external monitor
+Considering the initial monitors setup is done in user-session.
+`sudo cp ~/.config/monitors.xml ~gdm/.config/monitors.xml`
 
 ## Installed software
 - Spotify
@@ -41,6 +44,13 @@ Disable "Show desktop notifications when the song changes" in settings
 
 ### Steam
 Setup an alternative download location to /HDD/SteamLibrary
+
+### Edge
+#### Fonts
+- Standard font: Serif
+- Serif font: DejaVu Serif
+- Sans-serif font: DejaVu Sans
+- Fixed-width font: DejaVu Sans Mono
 
 
 ## Configs files

@@ -33,6 +33,10 @@ Considering the initial monitors setup is done in user-session.
 `sudo cp ~/.config/monitors.xml ~gdm/.config/monitors.xml`
 ```
 
+## Installed extensions
+- Dash to panel
+
+
 ## Installed software
 - Spotify
 - Steam

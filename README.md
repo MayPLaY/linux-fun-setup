@@ -51,6 +51,12 @@ Disable "Show desktop notifications when the song changes" in settings
 ### Steam
 Setup an alternative download location to /HDD/SteamLibrary
 
+### Lutris
+#### Overwatch
+Add the follow game env variable :
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json
+
+
 ### Edge
 #### Fonts
 - Standard font: Serif
@@ -62,3 +68,7 @@ Setup an alternative download location to /HDD/SteamLibrary
 ## Configs files
 ### ~/.bashrc
 `alias ulogout='/usr/bin/gnome-session-quit --no-prompt'`
+
+## TROUBLESHOOT
+### Laptop screen going black
+`sudo rm /etc/X11/xorg.conf`
